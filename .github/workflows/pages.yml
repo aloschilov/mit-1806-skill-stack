@@ -1,0 +1,49 @@
+name: pages
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: Build static site bundle
+        run: |
+          mkdir -p _site/docs _site/artifacts
+          cp -R docs/. _site/docs/
+          cp -R artifacts/. _site/artifacts/
+          cat > _site/index.html <<'HTML'
+          <!doctype html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <meta http-equiv="refresh" content="0; url=docs/index.html">
+            <title>MIT 18.06 Skill Stack</title>
+          </head>
+          <body>
+            <p><a href="docs/index.html">Open the MIT 18.06 Skill Stack dashboard</a></p>
+          </body>
+          </html>
+          HTML
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
