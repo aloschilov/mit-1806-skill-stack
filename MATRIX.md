@@ -13,7 +13,7 @@ Legend:
 | Matrix multiplication, inverses, and transposes | TRAIN | 2/4 | Course sources for Lectures 2-5 are indexed, but no gated personal review is present yet. | Compute products, inverses, and \(A^T\) examples, then connect them to composition and row/column views. |
 | Vector spaces and subspaces | PASS | 4/4 | Day 1 submitted work correctly classifies 10 candidate subsets with zero-vector and closure evidence. | Maintain through mixed rank and nullspace tasks. |
 | Column space, nullspace, and solvability of \(Ax=b\) | PASS | 4/4 | Day 1 submitted work finds \(C(A)\), \(N(A)\), and solvability conditions for three Gate D matrices. | Maintain the distinction between a solvability condition on \(b\) and one example of \(b\). |
-| RREF, rank, free variables, and special solutions | WATCH | 3/4 | Lecture 7 segmented notes cover pivot/free variables, special solutions, \(R\), and the nullspace matrix. | Reduce two rectangular matrices to \(R\), identify rank, and write the full nullspace basis. |
+| RREF, rank, free variables, and special solutions | PASS | 4/4 | Day 2 submitted work reduces \(B_1\) and \(B_2\) to RREF, identifies pivot/free variables and rank, and writes special-solution bases for \(N(A)\). | Maintain precise language: rank is the number of pivots and free variables are counted by \(n-r\). |
 | Complete solutions of \(Ax=b\) | WATCH | 3/4 | Lecture 8 notes cover \(x=x_p+x_n\), consistency, and four rank cases. | For four rank cases, determine whether solutions are none, unique, or infinite and write the complete solution when it exists. |
 | Independence, span, basis, and dimension | TRAIN | 2/4 | Lecture 9 rough notes exist, but the concept has not passed a gate. | Given five vector sets, decide independence, span, basis, and dimension using rank and nullspace evidence. |
 | Four fundamental subspaces | TRAIN | 2/4 | Lecture 10 rough notes exist; no explicit gate is recorded. | For two matrices, compute bases and dimensions for \(C(A)\), \(N(A)\), \(C(A^T)\), and \(N(A^T)\). |
@@ -28,4 +28,4 @@ Legend:
 
 ## Current Conclusion
 
-Gate C and Gate D have explicit Day 1 evidence. Next, turn Lecture 7 into Gate E evidence: RREF, rank, pivot variables, free variables, and special solutions. Keep the core chain \(C(A)\), \(N(A)\), rank, basis, and dimension stable in mixed tasks before moving to later concepts.
+Gate C and Gate D have explicit Day 1 evidence. Gate E now has explicit Day 2 evidence. Next, turn Lecture 8 into Gate F evidence: consistency, particular solutions, complete solutions \(x=x_p+x_n\), and the four rank cases. Keep the core chain \(C(A)\), \(N(A)\), rank, basis, and dimension stable in mixed tasks before moving to later concepts.

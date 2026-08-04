@@ -493,7 +493,7 @@ def check_source(source_root: Path) -> None:
         "subtitles": 34,
         "pdfs": 104,
         "pset_solutions": 10,
-        "review_markdown": 39,
+        "review_markdown": 60,
     }
     for key, value in expected.items():
         if counts[key] != value:

@@ -24,6 +24,8 @@ footer-left: "MIT 18.06 personal skill-stack"
 
 Do not create parent-feedback PDFs in this repo. The standard daily packet is assignments plus answers/checking accents. Add `feedback_self.md` only after there is actual completed work to review.
 
+Each learner-facing or review PDF source should start, after the opening goal callout, with a compact `# Глоссарий` section. Include the main Russian term, the corresponding English term in parentheses, and one short definition. Keep it concise enough that the first page still reaches the first real exercise or feedback section.
+
 ## Formulas
 
 - Inline formulas: `\( ... \)`.
