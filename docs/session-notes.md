@@ -7,3 +7,5 @@
 | 2 | Added the Markdown-to-PDF day-packet workflow and generated Day 1 source materials for assignments plus answers/checking accents. | Build and visually verify Day 1 PDFs; keep the packet parent-feedback-free. |
 | 3 | Checked the Day 1 submitted solution. Gate C and Gate D moved to PASS; generated self-feedback and Day 2 RREF/rank practice. | Complete Day 2 and use it as evidence for Gate E. |
 | 4 | Checked the Day 2 submitted solution. Gate E moved to PASS; generated self-feedback and Day 3 practice for complete solutions of \(Ax=b\). | Complete Day 3 and use it as evidence for Gate F: consistency, \(x_p\), \(x_n\), and four rank cases. |
+| 5 | Checked the Day 3 submitted solution. Gate F moved to PASS; generated self-feedback and Day 4 practice for independence, span, basis, and dimension. | Complete Day 4 and use it as evidence for Gate G using rank and nullspace evidence. |
+| 6 | Corrected Day 3 feedback after annotations: full column rank table entry and \(b\in C(B_1)\) shortcut were recognized as correct, not as learner errors. | Keep Day 4 focus unchanged: Gate G via rank and nullspace evidence. |
