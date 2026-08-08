@@ -12,9 +12,9 @@ footer-left: "MIT 18.06 personal skill-stack"
 - Linear independence (линейная независимость) - \(Ax=0\) имеет только \(x=0\).
 - Linear dependence (линейная зависимость) - \(N(A)\) содержит ненулевой вектор.
 - Span (линейная оболочка) - все линейные комбинации столбцов.
-- Basis (базис) - independent set, который spans нужное пространство.
+- Basis (базис) - independent set, который порождает нужное пространство.
 - Dimension (размерность) - число pivot columns в basis.
-- Ambient space (объемлющее пространство) - пространство, где живут векторы, например \(\mathbb{R}^3\).
+- Указанное пространство - пространство, где живут векторы в задаче, например \(\mathbb{R}^3\) для \(S\subset\mathbb{R}^3\).
 
 # 0. Быстрый ремонт со Дня 3
 
@@ -142,9 +142,9 @@ Rank \(=3\). Набор independent. Он не spans \(\mathbb{R}^4\), пото�
 
 # 3. Claim repair
 
-1. Исправление: если векторов больше, чем dimension ambient space, они не могут быть independent. Но они могут span-ить пространство. Counterexample: \(S_4\) имеет четыре вектора в \(\mathbb{R}^3\) и spans \(\mathbb{R}^3\).
+1. Исправление: если векторов больше, чем dimension указанного пространства, они не могут быть independent. Но они могут породить всё пространство. Counterexample: \(S_4\) имеет четыре вектора в \(\mathbb{R}^3\) и spans \(\mathbb{R}^3\).
 
-2. Исправление: если векторов меньше, чем dimension ambient space, они не могут span-ить всё пространство. Но они могут быть independent. Counterexample: \(S_5\) имеет три independent vectors в \(\mathbb{R}^4\).
+2. Исправление: если векторов меньше, чем dimension указанного пространства, они не могут span-ить всё пространство. Но они могут быть independent. Counterexample: \(S_5\) имеет три independent vectors в \(\mathbb{R}^4\).
 
 # 4. Выбери basis
 
