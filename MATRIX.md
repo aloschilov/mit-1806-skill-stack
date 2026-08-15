@@ -15,8 +15,8 @@ Legend:
 | Column space, nullspace, and solvability of \(Ax=b\) | PASS | 4/4 | Day 1 submitted work finds \(C(A)\), \(N(A)\), and solvability conditions for three Gate D matrices. | Maintain the distinction between a solvability condition on \(b\) and one example of \(b\). |
 | RREF, rank, free variables, and special solutions | PASS | 4/4 | Day 2 submitted work reduces \(B_1\) and \(B_2\) to RREF, identifies pivot/free variables and rank, and writes special-solution bases for \(N(A)\). | Maintain precise language: rank is the number of pivots and free variables are counted by \(n-r\). |
 | Complete solutions of \(Ax=b\) | PASS | 4/4 | Day 3 submitted work checks consistency, finds \(x_p\), writes complete solutions \(x=x_p+x_n\), and classifies the four rank cases. | Maintain the distinction between restrictions on \(b\) and free-variable directions in \(N(A)\). |
-| Independence, span, basis, and dimension | WATCH | 3/4 | Day 4 work gets ranks, pivots, dependence, spans, and bases right; claim wording and the row-space distinction need one short repair. | Repair the two count-versus-dimension claims and distinguish preserved row space from changed column space. |
-| Four fundamental subspaces | TRAIN | 2/4 | Lecture 10 rough notes exist; no explicit gate is recorded. | For two matrices, compute bases and dimensions for \(C(A)\), \(N(A)\), \(C(A^T)\), and \(N(A^T)\). |
+| Independence, span, basis, and dimension | PASS | 4/4 | Day 4 computations and the Day 5 repair correctly distinguish dependence from spanning and preserved row space from changed column space. | Maintain the distinction in mixed matrix-space examples. |
+| Four fundamental subspaces | PASS | 4/4 | Day 5 correctly computes bases and dimensions for all four spaces of two matrices and verifies both rank-nullity counts. | Maintain the row-relation meaning of \(N(A^T)\). |
 | Orthogonality, projections, least squares, and \(QR\) | NEW | 0/4 | Lectures 14-17 are indexed, but no personal review evidence is recorded. | Solve a projection and least-squares problem and explain the normal equation \(A^TA\hat{x}=A^Tb\). |
 | Determinants | NEW | 0/4 | Lectures 18-20 are indexed. | Compute determinants by row operations and cofactors, then explain volume scaling. |
 | Eigenvalues, diagonalization, and applications | NEW | 0/4 | Lectures 21-24 are indexed. | Diagonalize a matrix when possible and use \(A^k\) or \(e^{At}\) in one application. |
@@ -28,4 +28,4 @@ Legend:
 
 ## Current Conclusion
 
-Gate C and Gate D have explicit Day 1 evidence, Gate E has explicit Day 2 evidence, and Gate F has explicit Day 3 evidence. Day 4 moves Gate G to WATCH: the computations are reliable, while two claim repairs and the row-space distinction remain active. Day 5 begins Gate H with complete four-subspace tables for two matrices.
+Gates C-H now have explicit submitted evidence. Day 5 closes Gate G after a correct wording repair and passes Gate H with two complete four-subspace tables. Day 6 moves to Lecture 11: matrix spaces, sums and intersections of subspaces, and rank-one factorization.

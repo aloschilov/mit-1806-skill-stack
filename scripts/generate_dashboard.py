@@ -48,7 +48,14 @@ FOCUS_BY_DAY = {
             "Закрепить две count-versus-dimension формулировки, затем построить "
             r"bases и dimensions для \(C(A)\), \(N(A)\), \(C(A^T)\) и \(N(A^T)\)."
         ),
-    }
+    },
+    6: {
+        "title": "День 6: matrix spaces и rank one",
+        "summary": (
+            "Закрепить смысл left nullspace, затем найти bases и dimensions для "
+            r"matrix subspaces, исследовать \(S\cap U\), \(S+U\) и factorization \(uv^T\)."
+        ),
+    },
 }
 
 MATERIAL_LABELS = {
